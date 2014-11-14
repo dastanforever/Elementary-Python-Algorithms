@@ -40,7 +40,10 @@ def printlist():
         temp = temp.prev
     print(temp.data)
 
-
+# Run the script, Enter data, and then 1 to continue entreing data.
+# It will automatically display the list
+# Then it will ask for deletion
+# Again it will display th list.
 i = 1
 while i == 1:
     print("Enter - ")
