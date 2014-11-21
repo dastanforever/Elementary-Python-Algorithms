@@ -20,7 +20,7 @@ def quicksort(A,start,end):
         quicksort(A,start,q-1)
         quicksort(A,q+1,end)
 
-A = [12,11,4,324,12312,534,123,545,1324,123,2556]
+A = [12,11,4,324,1231,534,123,545,1324,123,2556]
 #print A[2],len(A)
 quicksort(A,0,len(A)-1)
 print(A)
